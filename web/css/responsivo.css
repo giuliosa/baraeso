@@ -9,12 +9,16 @@
 
 /*Tela de telefone*/
 @media only screen and (max-width:767px){
+    /*Cabeçalho*/
+    body{
+      font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;      
+    }
+
   header{
       background-color: #474747;
       height: 80px;
-      font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-size: 1.4em;
-      padding-top: 22px; 
+      font-size: 1.5em;
+      padding-top: 38px; 
       padding-left: 20px;
       color:#f1f1f1;
   }
@@ -26,5 +30,30 @@
   .fa-bars{
       cursor: pointer;
   }
+
+  /*Categorias*/
+
+  .categoria{
+      display: flex;
+      /*flex-wrap: wrap; */
+  }
+
+  .col-2{
+      width: calc(100%/2);
+      background-color: #999;
+      margin: 20px 12px;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      font-size: 1.2em;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .col-2 img{
+      width: 50px;
+      display: block;
+      margin: 0 auto 10px auto;
+  }
+
 
 }
