@@ -9,10 +9,10 @@
 
 /*Tela de telefone*/
 @media only screen and (max-width:767px){
-    /*Cabeçalho*/
-    body{
-      font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
+  /*Cabeçalho*/
+  body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
 
   header{
       background-color: #474747;
@@ -21,6 +21,11 @@
       padding-top: 38px;
       padding-left: 20px;
       color:#f1f1f1;
+  }
+
+  a, a:hover, a:visited, a:active, a:link{
+    text-decoration: none;
+    color:#f1f1f1;
   }
 
   .titulo-mesa{
@@ -56,6 +61,59 @@
       display: block;
       margin: 0 auto 10px auto;
   }
+
+  /*Produtos*/
+  .produtos{
+    margin-bottom: 70px;
+  }
+
+  .produto{
+    margin-bottom: 4px;
+  }
+
+  .header-produto{
+    background-color: #ccc;
+    display: flex;
+    height: 70px;
+    padding: 20px 17px;
+    font-size: 24px;
+  }
+  .header-produto h3{
+    margin-top: 5px;
+  }
+
+  .header-produto .right{
+    display: inline-block;
+    position: absolute;
+    margin-right: 10px;
+    right: 0;
+  }
+
+  .header-produto .right .btn-add{
+    border-radius: 50%;
+    border: none;
+    margin-left: 5px;
+  }
+
+  .detalhe-produto{
+    padding: 20px 17px;
+    background-color: #ddd;
+  }
+
+  .detalhe-produto span{
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .detalhe-produto input{
+    margin-bottom: 8px;
+  }
+
+  .detalhe-produto label{
+    margin-right: 8px;
+  }
+
+
 
   /*Footer Menu*/
   footer{
