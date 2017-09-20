@@ -113,7 +113,120 @@
     margin-right: 8px;
   }
 
+  /*Pedidos*/
 
+  .pedidos{
+    margin-bottom: 70px;
+  }
+
+  .pedido{
+    margin-bottom: 4px;
+  }
+
+  .header-pedido{
+    background-color: #ccc;
+    display: flex;
+    height: 70px;
+    padding: 20px 17px;
+    font-size: 24px;
+  }
+  .header-pedido h3{
+    margin-top: 5px;
+  }
+
+  .header-pedido .right{
+    display: inline-block;
+    position: absolute;
+    margin-right: 20px;
+    right: 0;
+  }
+
+  .header-status{
+    background-color: #999;
+    padding: 0 20px;
+  }
+
+  .header-status:hover{
+    cursor:pointer;
+  }
+
+  .detalhe-status{
+    background-color: #aaa;
+    padding: 0 20px;
+  }
+
+
+  .detalhe-pedido span{
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .detalhe-pedido input{
+    margin-bottom: 8px;
+  }
+
+  .detalhe-pedido label{
+    margin-right: 8px;
+  }
+
+  /*Conta*/
+  .header-conta{
+    background-color: #ccc;
+    display: flex;
+    height: 70px;
+    padding: 20px 17px;
+    font-size: 24px;
+  }
+
+  .header-conta h3{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .produto-pedido{
+    display: block;
+    /*padding: 20px 17px;*/
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: #dcdcdc;
+  }
+
+  .produto-pedido h3{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  .produto-pedido .right{
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px;
+    margin-right: 20px;
+    right: 0;
+  }
+
+  .total{
+    height: 60px;
+    background-color: #aaa;
+  }
+
+  .total h3{
+    display: block;
+    font-size: 20px;
+    margin-left:20px;
+  }
+
+  .total .right{
+    display: inline-block;
+    position: absolute;
+    margin-right: 20px;
+    right: 0;
+    background-color: #777;
+    color:#f8f8f8;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+  }
 
   /*Footer Menu*/
   footer{
