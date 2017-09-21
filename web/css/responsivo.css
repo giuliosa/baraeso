@@ -152,7 +152,19 @@
 
   .detalhe-status{
     background-color: #aaa;
+    height: 55px;
     padding: 0 20px;
+  }
+
+  
+  .muda-status{
+    position: absolute;
+    right: 0px;
+    padding: 8px;
+    background-color: #999;
+    border-radius: 5px;
+    border:none;
+    margin:10px 20px  ;  
   }
 
 
@@ -168,6 +180,7 @@
   .detalhe-pedido label{
     margin-right: 8px;
   }
+
 
   /*Conta*/
   .header-conta{
